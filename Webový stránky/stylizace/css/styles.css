@@ -1,0 +1,40 @@
+header{
+    height: 150px;
+}
+
+nav{
+    height: 60px;
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li{
+    background-color: aqua;
+    text-align: center;
+    height: 100%;
+}
+/*
+a:link{
+    color: yellow;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: hotpink;
+}
+
+footer{
+    height: 80px;
+}
+*/
+main{
+    height: auto;
+}

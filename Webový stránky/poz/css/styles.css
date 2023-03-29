@@ -1,0 +1,56 @@
+* {
+    margin: 0px; padding: 0px;
+}
+
+body {
+    width: 900px; height: 576px;
+    background-image: url("../img/absolutni-pozicovani.png");
+    background-size: 800px 500px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#wrapper {
+    border: 2px solid black;
+    width: 800px; height: 400px;
+    position: relative;
+    margin: 100px 0px 0px 200px;
+}
+
+#cervena {
+    position: absolute;
+    height: 385px; width: 136px;
+    top: -47px;
+    left: -144px;
+    background-color: red;
+    z-index: 1;
+
+}
+
+#modra {
+    position: absolute;
+    height: 86px; width: 422px;
+    top: -45px;
+    left: 20px;
+    background-color: blue;
+    z-index: 2;
+
+}
+
+#zluta {
+    position: absolute;
+    height: 290px; width: 531px;
+    left: 25px;
+    top: 74px;
+    background-color: yellow;
+    z-index: 3;
+}
+
+#zelena {
+    position: absolute;
+    height: 140px; width: 142px;
+    left: 374px;
+    top: -2px;
+    background-color: green;
+    z-index: 4;
+}

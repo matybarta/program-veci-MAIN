@@ -1,0 +1,38 @@
+body {
+    background-color: yellow;
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: aqua;
+    width: 1394px;
+    height: 300px;
+    margin:0 auto;
+    position: relative;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-image: url(../img/Terry_Davis_car.png);
+    background-size:cover;
+    background-repeat:round;
+}
+
+h1 {
+    position: absolute;
+    left: 120px;
+    color: chartreuse;
+    top: -14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
