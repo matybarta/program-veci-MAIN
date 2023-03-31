@@ -1,0 +1,49 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url(../img/vacation.jpg);
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #00ff2a;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #00ffdd;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: rgb(76, 0, 255);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #fbff00;
+    color: black;
+  }
+  
+  .active {
+    background-color: #f0f;
+    color: white;
+  }
